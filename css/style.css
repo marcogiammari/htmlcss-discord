@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #add8e6;
+}
+
+#bar-wrapper {
+    padding: 1.2rem;
+}
+
+#bar {
+    background-color: #daa520;
+    justify-content: space-between;
+}
+
+#bar > div, nav {
+    border: 2px dashed black;
+    padding: 0.5rem;
+}
+
+#logo {
+    justify-content: flex-start;
+    align-items: center;
+    width: 20%;
+}
+
+#blue-box {
+    background-color: #00008b;
+}
+
+#pink-box {
+    width: 56rem;
+    min-height: 25rem;
+    margin: 3rem auto;
+    border: 2px dashed black;
+    background-color: #ee82ee;
+}
+
+
+nav {
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+
+}
+
+nav > a {
+    all: unset;
+    cursor: pointer;
+    padding: 0.2rem;
+}
+
+#login {
+    justify-content: flex-end;
+    align-items: center;
+    width: 20%;
+}
+
+.boxed {
+    width: 75rem;
+    margin: auto;
+}
+
+.flex-container {
+    display: flex;
+}
+
+main > div {
+    padding: 3rem;
+}
+
+main > div:nth-child(even) {
+    background-color: #d3d3d3;
+}
+
+main > div:nth-child(odd) {
+    background-color: #fff;
+}
+
+.main-box {
+    border: 2px dashed black;
+    min-height: 34.5rem;
+}
+
+#reverse {
+    flex-direction: row-reverse;
+}
+
+.main-box .big-col {
+    background-color: #1e90ff;
+    border: 2px dashed black;
+    width: 60%;
+}
+
+.main-box .small-col {
+    background-color: #ffc0cb;
+    border: 2px dashed black;
+    width: 40%;
+}
+
+#green-box {
+    min-height: 56rem;
+    background-color: #228b22;
+}
+
+footer {
+    background-color: #23272a;
+}
+
+footer > div {
+    border-bottom: 2px solid #c1c1c1;
+}
+
+.footer-box {
+    min-height: 36rem;
+    padding: 0.6rem 0 3rem 0;
+}
+
+#footer-module-1 .small-col {
+    background-color: #f08080;
+    width: 30%;
+}
+
+#footer-module-1 .big-col {
+    background-color: #20b2aa;
+    width: 70%;
+}
+
+.mini-col {
+    width: 25%;
+    height: 100%;
+    border: 2px dashed #a2dfdb;
+}
+
+#footer-module-2 {
+    padding: 2rem 0 0 0;
+}
+
+#footer-container {
+    background-color: #7fffd4;
+    min-height: 5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#footer-container div {
+    border: 2px dashed black;
+    padding: 0.2rem 0.4rem;
+    background-color: #ffb6c1;
+}
+
+#footer-button-wrapper > button {
+    all: unset;
+    cursor: pointer;
+}
