@@ -42,6 +42,7 @@ button {
     text-align: center;
     background-color: white;
     font-weight: 700;
+    transition-duration: 0.8s;
 }
 
 #logo {
@@ -250,9 +251,6 @@ a:hover {
     border: none;
 }
 
-button {
-    transition-duration: 0.8s;
-}
 button:hover {
     transform: scale(1.2);
 }
