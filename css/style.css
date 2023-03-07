@@ -75,7 +75,7 @@ main p {
     padding: 0.5rem 1.5rem;
 }
 
-i {
+header i {
     padding-right: 0.5rem;
 }
 
@@ -183,29 +183,51 @@ footer {
     background-color: #23272a;
 }
 
-footer > div {
-    border-bottom: 2px solid #c1c1c1;
-}
-
 .footer-box {
     min-height: 36rem;
     padding: 0.6rem 0 3rem 0;
 }
 
 #footer-module-1 .small-col {
-    background-color: #f08080;
     width: 30%;
+    padding: 3rem;
+}
+
+.small-col > h3 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #8ea1e1;
+}
+
+.small-col > div {
+    margin: 2rem 0 1.5rem;
+}
+
+.small-col div:last-child i {
+    margin-right: 1rem;
+}
+
+#italian-flag {
+    height: 1.25rem;
 }
 
 #footer-module-1 .big-col {
-    background-color: #20b2aa;
     width: 70%;
+    padding: 3rem;
 }
 
 .mini-col {
     width: 25%;
     height: 100%;
     border: 2px dashed #a2dfdb;
+}
+
+.mini-col h4 {
+    color: #8ea1e1;
+}
+
+.mini-col p {
+    margin-top: 1rem;
 }
 
 #footer-module-2 {
@@ -224,4 +246,9 @@ footer > div {
     border: 2px dashed black;
     padding: 0.2rem 0.4rem;
     background-color: #ffb6c1;
+}
+
+hr {
+    border-color: #8ea1e1;
+    background-color: #8ea1e1;
 }
