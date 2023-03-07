@@ -249,3 +249,10 @@ a:hover {
     background-color: transparent;
     border: none;
 }
+
+button {
+    transition-duration: 0.8s;
+}
+button:hover {
+    transform: scale(1.2);
+}
