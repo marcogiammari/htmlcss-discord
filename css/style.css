@@ -112,13 +112,16 @@ nav > a {
     display: block;
 }
 
+.flipped {
+    transform: scaleY(-1);
+}
+
 .flex-container {
     display: flex;
 }
 
 main > div {
     padding: 3rem;
-    margin-bottom: 6rem;
 }
 
 .main-box {
